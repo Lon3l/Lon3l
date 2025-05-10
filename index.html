@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iSilentBoy3 - ڕیپۆرتی تیکتۆک</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- سەرپەڕ -->
+    <header>
+        <h1>iSilentBoy3</h1>
+        <p>سیستەمی پاراستنی کۆمەڵگای تیکتۆک</p>
+    </header>
 
+    <!-- فۆرمی ڕیپۆرت -->
+    <section class="report-form">
+        <h2>ڕیپۆرتێکی نوێ بنێرە</h2>
+        <form id="reportForm">
+            <div class="form-group">
+                <label for="username">ناوی بەکارهێنەر (@username):</label>
+                <input type="text" id="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="videoLink">لینکی ڤیدیۆ:</label>
+                <input type="url" id="videoLink">
+            </div>
+
+            <div class="form-group">
+                <label for="reportType">جۆری ڕیپۆرت:</label>
+                <select id="reportType" required>
+                    <option value="">هەڵبژێرە</option>
+                    <option value="spam">سپام/فێڵکاری</option>
+                    <option value="inappropriate">ناپاک</option>
+                </select>
+            </div>
+
+            <button type="submit">ناردنی ڕیپۆرت</button>
+        </form>
+    </section>
+
+    <!-- لینکی دیسکۆرد -->
+    <section class="discord-section">
+        <a href="https://discord.gg/lemni" class="discord-link">بچۆرە نێو دیسکۆرد</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
