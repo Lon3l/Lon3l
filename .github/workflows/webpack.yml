@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
-      run: |12
+    - name: lon3l
+      run: lon3l|
         npm install
         npx webpack
